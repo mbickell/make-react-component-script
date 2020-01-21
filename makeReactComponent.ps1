@@ -28,3 +28,5 @@ md .\src\$type\$name;
 $jsx | Out-File .\src\$type\$name\$name.jsx;
 $test | Out-File .\src\$type\$name\$name.test.js;
 Out-File .\src\$type\$name\$name.module.scss;
+
+Write-Host "Created $name component in $type folder" -BackgroundColor white -ForegroundColor black;
