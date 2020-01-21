@@ -15,6 +15,8 @@ powershell script to generate react component similar to ng-generate
 
 ## Setting up script
 
+Script should be placed in a top level scripts folder, but ultimately can be put wherever as long as script in package.json is updated with new file path.
+
 In your package.json add:
 
 ```
