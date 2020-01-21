@@ -42,3 +42,13 @@ or
 ```
 npm make container header
 ```
+
+## Testing in this repo
+
+Run script by entering:
+
+```
+.\makeReactComponent.ps1
+```
+
+with the approriate flags in the command line
